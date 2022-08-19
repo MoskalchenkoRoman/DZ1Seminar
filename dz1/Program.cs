@@ -1,0 +1,12 @@
+﻿int A = new Random().Next(1, 100);
+int B = new Random().Next(1, 100);
+int max = A;
+int min = B;
+if (A < B) max = B;
+if (A < B) min = A;
+Console.WriteLine(A);
+Console.WriteLine(B);
+Console.Write("max=");
+Console.WriteLine(max);
+Console.Write("min=");
+Console.WriteLine(min);
