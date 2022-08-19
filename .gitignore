@@ -38,11 +38,11 @@ bld/
 #wwwroot/
 
 # Visual Studio 2017 auto generated files
-Generated\Files/
+Generated\ Files/
 
 # MSTest test Results
-[Tt] est [Rr]*/
-[Bb] uild[Ll] og.*
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
 
 # NUnit
 *.VisualState.xml
@@ -378,10 +378,10 @@ FodyWeavers.xsd
 
 # VS Code files for those working on multiple tools
 .vscode/*
-!!/settings.json
-!!/tasks.json
-!!/launch.json
-!!/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 *.code-workspace
 
 # Local History for Visual Studio Code
