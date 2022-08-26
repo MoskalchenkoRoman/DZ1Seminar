@@ -22,37 +22,37 @@
 // дз 2
 
 
-Console.WriteLine("Введите число от 1 до 7");
-int num = Convert.ToInt32(Console.ReadLine());
-if (num == 1)
-{
-    Console.Write(num + "-Понедельник");
-}
-if (num == 2)
-{
-    Console.Write(num + "-Вторник");
-}
-if (num == 3)
-{
-    Console.Write(num + "-Среда");
-}
-if (num == 4)
-{
-    Console.Write(num + "-Четверг");
-}
-if (num == 5)
-{
-    Console.Write(num + "-Пятница");
-}
-if (num == 6)
-{
-    Console.Write(num + "-Суббота ВЫХОДНОЙ");
-}
-if (num == 7)
-{
-    Console.Write(num + "-Воскресенье - Гуляем))");
-}
-if (num < 1 || num > 7)
-{
-    Console.Write(num + " -не корректные данные! ");
-}
+// Console.WriteLine("Введите число от 1 до 7");
+// int num = Convert.ToInt32(Console.ReadLine());
+// if (num == 1)
+// {
+//     Console.Write(num + "-Понедельник");
+// }
+// if (num == 2)
+// {
+//     Console.Write(num + "-Вторник");
+// }
+// if (num == 3)
+// {
+//     Console.Write(num + "-Среда");
+// }
+// if (num == 4)
+// {
+//     Console.Write(num + "-Четверг");
+// }
+// if (num == 5)
+// {
+//     Console.Write(num + "-Пятница");
+// }
+// if (num == 6)
+// {
+//     Console.Write(num + "-Суббота ВЫХОДНОЙ");
+// }
+// if (num == 7)
+// {
+//     Console.Write(num + "-Воскресенье - Гуляем))");
+// }
+// if (num < 1 || num > 7)
+// {
+//     Console.Write(num + " -не корректные данные! ");
+// }
