@@ -1,12 +1,12 @@
 ﻿// DZ_3
-Console.WriteLine("Введите число");
-int num = Convert.ToInt32(Console.ReadLine());
-int i = 1;
-while(i <= num)
-{
-    Console.WriteLine(i+" - в кубе = "+Math.Pow(i,3));
-    i++;
-}
+// Console.WriteLine("Введите число");
+// int num = Convert.ToInt32(Console.ReadLine());
+// int i = 1;
+// while(i <= num)
+// {
+//     Console.WriteLine(i+" - в кубе = "+Math.Pow(i,3));
+//     i++;
+// }
 
 
 
