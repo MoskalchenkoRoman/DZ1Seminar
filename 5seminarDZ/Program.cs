@@ -63,3 +63,8 @@
 // Console.WriteLine(string.Join("|", array));
 // Console.WriteLine(min + " - минимальное :" + max + " - максимальное");
 // Console.WriteLine("разница =" + raz);
+
+// int value = 8;
+// string binary = Convert.ToString(value, 2);
+// Console.WriteLine(binary);
+
