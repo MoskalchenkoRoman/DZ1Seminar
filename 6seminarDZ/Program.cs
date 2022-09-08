@@ -1,28 +1,28 @@
-﻿// Console.WriteLine("Введите значение b1:");
-// double size = Convert.ToInt32(Console.ReadLine());
-// double [] array = new double [size];
-// for (double i = 0; i < size; i++)
-// {
-//     Console.WriteLine("Введите число:");
-//     double s = Convert.ToInt32(Console.ReadLine());
-//     array[i] = s;
-// }
-// Console.WriteLine(string.Join("|", array));
-// double cet = 0;
-// double ncet = 0;
-// for (double i = 0; i < array.Length; i++)
-// {
-//     if (array[i] > 0)
-//     {
-//         cet++;
-//     }
-//     else
-//     {
-//         ncet++;
-//     }
-// }
-// Console.WriteLine("Введено положительных чисел :" + cet);
-// Console.WriteLine("Введено отрицательных чисел :" + ncet);
+﻿Console.WriteLine("Введите количество чисел для проверки:");
+int size = Convert.ToInt32(Console.ReadLine());
+int [] array = new int [size];
+for (int i = 0; i < size; i++)
+{
+    Console.WriteLine("Введите число:");
+    int s = Convert.ToInt32(Console.ReadLine());
+    array[i] = s;
+}
+Console.WriteLine(string.Join("|", array));
+int cet = 0;
+int ncet = 0;
+for (int i = 0; i < array.Length; i++)
+{
+    if (array[i] > 0)
+    {
+        cet++;
+    }
+    else
+    {
+        ncet++;
+    }
+}
+Console.WriteLine("Введено положительных чисел :" + cet);
+Console.WriteLine("Введено отрицательных чисел :" + ncet);
 
 
 // DZ2
