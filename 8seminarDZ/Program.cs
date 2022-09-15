@@ -239,9 +239,9 @@ for (int x = 0; x < m; x++)
 {
     for (int y = 0; y < n; y++) 
     {
-        if (array[x,y] < 100) 
+        if (array[x,y] < 10) 
         {
-            Console.Write(array[x,y] + "\t");
+            Console.Write("0" + array[x,y] + "\t");
         } 
         else 
         {
